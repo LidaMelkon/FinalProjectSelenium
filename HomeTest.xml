@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.automationexercise.listeners.ExtentTestNGListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Lida Melkonyan/Documents/Automation/FinalProjectSelenium/src/test/java/tests/HomePageTest.java">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="verifyHomePageIsVisible"/>
+                    <include name="verifyNewUserSignupIsVisible"/>
+                    <include name="verifyACCOUNTDELETEDIsVisible"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
